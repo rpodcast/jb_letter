@@ -34,16 +34,18 @@ One small bit of history: While I had little time to play with the console itsel
 plot(qr_code("https://www.youtube.com/watch?v=ow8A68ElPp0"))
 ```
 
-Speaking of open-source, this letter was written with a completely open-source stack:
+Speaking of open-source, this letter was written with a completely open-source stack and the source available on a GitHub repo[^1]:
 
 * OS: KDE Neon 22.04
-* Editor: RStudio IDE[^1]
-* Publishing Engine: Quarto[^2]
-* Computing Language: R[^3] (of course)
+* Editor: RStudio IDE[^2]
+* Publishing Engine: Quarto[^3]
+* Computing Language: R[^4] (of course)
 
-[^1]: <https://posit.co>
-[^2]: <https://quarto.org>
-[^3]: <https://r-project.org>
+[^1]: <https://github.com/rpodcast/jb_letter>
+[^2]: <https://posit.co>
+[^3]: <https://quarto.org>
+[^4]: <https://r-project.org>
+
 
 ::: {.flushright data-latex=""}
 Sincerely,
