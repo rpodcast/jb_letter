@@ -1,0 +1,55 @@
+---
+title: "Thank you, Jupiter Broadcasting!"
+format: PrettyPDF-pdf
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(qrcode)
+```
+
+```{=html}
+<style>
+.flushright {
+   text-align: right;
+}
+</style>
+```
+
+
+Hello, Chris!
+
+I know you've heard me say this before, but I am so thankful for Jupiter Broadcasting opening my eyes to the exciting possibilities of how far we can take open-source software and how Linux would eventually bring immense value to both my career and my podcasting / Linux adventures at home. And if that wasn't enough, I also have you to thank for discovering value for value and Podcasting 2.0. This Atari VCS was begging for a new home, and I dare say you and the JB crew are going to have a load of fun with it!
+
+One small bit of history: While I had little time to play with the console itself, the gamepad included in this package was a huge part of my online Hotshot Racing adventures with Martin Wimpress and a merry band of racing enthusiasts. The QR code below takes you to my favorite racing session!
+
+```{r}
+#| label: racingcode
+#| echo: false
+#| fig-width: 2.0
+#| fig-height: 2.0
+
+plot(qr_code("https://www.youtube.com/watch?v=ow8A68ElPp0"))
+```
+
+Speaking of open-source, this letter was written with a completely open-source stack:
+
+* OS: KDE Neon 22.04
+* Editor: RStudio IDE[^1]
+* Publishing Engine: Quarto[^2]
+* Computing Language: R[^3] (of course)
+
+[^1]: <https://posit.co>
+[^2]: <https://quarto.org>
+[^3]: <https://r-project.org>
+
+::: {.flushright data-latex=""}
+Sincerely,
+
+Eric Nantz (R-Podcast)
+
+<https://podcastindex.social/@rpodcast>
+:::
+
